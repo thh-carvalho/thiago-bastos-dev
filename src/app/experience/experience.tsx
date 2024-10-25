@@ -1,9 +1,6 @@
 'use client'
  
-import { usePathname } from 'next/navigation'
- 
 export function Experience() {
-  const pathname = usePathname()
  
   return (
     <section id='experience' className='flex justify-start py-5 pr-10 max-[990px]:flex-col max-[990px]:py-18 max-[990px]:px-7'>

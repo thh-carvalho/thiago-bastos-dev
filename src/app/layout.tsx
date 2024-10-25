@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import 'tailwindcss/tailwind.css'
 import Head from "next/head";
+import { GoogleTagManager } from '@next/third-parties/google'
 
 import { Hero } from "./hero/hero";
 
@@ -36,6 +37,7 @@ export default function RootLayout({ children, }: { children: React.ReactNode}) 
       <Head>
         <link rel="icon" href="/favicon/thiago.png" />
       </Head>
+      <GoogleTagManager gtmId="GTM-K9TZKMXF" />
       <body className="bg-[url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWxmajZoYTBvbmU4c2FneG44Znd1eXI2ZGl6NzgxcXRubDlweDJxcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U4ExkAvRpVQGB0NMe0/giphy.webp')] bg-no-repeat bg-cover">
         <div className="grid grid-cols-2 max-[990px]:flex max-[990px]:flex-col max-[990px]:justify-start">
           <div>
