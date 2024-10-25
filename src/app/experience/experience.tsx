@@ -7,7 +7,7 @@ export function Experience() {
  
   return (
     <section id='experience' className='flex justify-start py-5 pr-10 max-[990px]:flex-col max-[990px]:py-18 max-[990px]:px-7'>
-        <div className='flex justify-start py-5 pr-10 w-5/5 hover:bg-slate-700 hover:bg-opacity-25 hover:rounded-xl'>
+        <div className='flex justify-start py-5 pr-10 w-5/5 hover:bg-slate-700 hover:bg-opacity-25 hover:rounded-xl max-[990px]:flex-col max-[990px]:pr-0'>
             <div className='p-0 max-[990px]:pb-3 max-[990px]:flex'>
                 <p className='w-32 text-slate-400'>Stalse Analytics</p>
                 <p className='w-32 text-slate-400'>2021 - PRESENT</p>
