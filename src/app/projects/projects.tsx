@@ -4,6 +4,7 @@ import { usePathname } from 'next/navigation'
 import { ArrowForward } from '@mui/icons-material'
 import angular from '/public/angular.jpg'
 import javascript from '/public/javascript.jpg'
+import stalse from '/public/logo-stalse.png'
 import Image from 'next/image'
  
 export function Projects() {
@@ -11,9 +12,28 @@ export function Projects() {
  
   return (
     <section id='projects' className='py-10 pr-20 max-[990px]:py-18 max-[990px]:px-7'>
+         <div className='flex justify-start py-10 pr-20 max-[990px]:flex-col max-[990px]:pr-0 hover:bg-slate-700 hover:bg-opacity-25 hover:rounded-xl'>
+            <div className='pr-5 w-[500px] max-[990px]:pr-0 max-[990px]:mb-3'>
+                <Image className='w-full' src={stalse} alt='angular wallpaper'/>
+            </div>
+            <div className='p-0'>
+                <h3 className='text-slate-300 text-justify font-bold leading-7 pb-3'><a href="https://www.stalse.com/" target='_blank'>Web Site - Stalse Analytics <ArrowForward/></a></h3>
+                <p className='text-slate-400 text-justify leading-7'>
+                    Site institucional desenvolvido com Flask, o framework web de Python e Tailwind. Tendo integrações com formulário
+                    Hubspot.
+                </p>
+
+                <div className='flex justify-start pt-3'>
+                    <span className='bg-teal-800 bg-opacity-25 text-teal-400 p-2 mr-2 rounded-full'>Flask</span>
+                    <span className='bg-teal-800 bg-opacity-25 text-teal-400 p-2 mr-2 rounded-full'>Tailwind</span>
+                    <span className='bg-teal-800 bg-opacity-25 text-teal-400 p-2 mr-2 rounded-full'>Hubspot</span>
+                </div>
+            </div>
+        </div>
+
         <div className='flex justify-start py-10 pr-20 max-[990px]:flex-col max-[990px]:pr-0 hover:bg-slate-700 hover:bg-opacity-25 hover:rounded-xl'>
-            <div className='pr-5 max-[990px]:pr-0 max-[990px]:mb-3'>
-                <Image src={angular} alt='angular wallpaper' width={400} height={200} />
+            <div className='pr-5 w-[400px] max-[990px]:pr-0 max-[990px]:mb-3'>
+                <Image className='w-full' src={angular} alt='angular wallpaper'/>
             </div>
             <div className='p-0'>
                 <h3 className='text-slate-300 text-justify font-bold leading-7 pb-3'><a href="https://github.com/thh-carvalho/auth-login-firebase-angular" target='_blank'>Login Social - Firebase Angular <ArrowForward/></a></h3>
