@@ -29,13 +29,13 @@ export function Hero() {
 
         <div className='py-3'>
             <ul className='flex'>
-                <li className="text-slate-600 pr-3 hover:text-slate-400" onClick={() => sendGTMEvent({ event: 'click', event_label: 'click:github', event_category:'github', event_action:'click:github' })}>
+                <li className="text-slate-600 pr-3 hover:text-slate-400" onClick={() => sendGTMEvent({ event: 'click_social', event_label: 'click:github', event_category:'github', event_action:'click:github' })}>
                     <a href="https://github.com/thh-carvalho" target='_blank'><GitHub fontSize="large"/></a>                    
                 </li>
-                <li className="text-slate-600 pr-3 hover:text-slate-400" onClick={() => sendGTMEvent({ event: 'click', event_label: 'click:linkedin', event_category:'linkedin', event_action:'click:linkedin' })}>
+                <li className="text-slate-600 pr-3 hover:text-slate-400" onClick={() => sendGTMEvent({ event: 'click_social', event_label: 'click:linkedin', event_category:'linkedin', event_action:'click:linkedin' })}>
                     <a href="https://www.linkedin.com/in/thiagohcarvalho/" target='_blank'><LinkedIn fontSize="large"/></a>                    
                 </li>
-                <li className="text-slate-600 pr-3 hover:text-slate-400" onClick={() => sendGTMEvent({ event: 'click', event_label: 'click:email', event_category:'email', event_action:'click:email' })}>
+                <li className="text-slate-600 pr-3 hover:text-slate-400" onClick={() => sendGTMEvent({ event: 'click_social', event_label: 'click:email', event_category:'email', event_action:'click:email' })}>
                     <a href="mailto:thiago.bastosdev@gmail.com" target='_blank'><Email fontSize="large"/></a>                    
                 </li>
             </ul>
