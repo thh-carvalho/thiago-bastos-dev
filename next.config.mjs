@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/2048-in-react",
+    basePath: "/thiago-bastos-dev",
     output: "export",  // <=== enables static exports
     reactStrictMode: true,
 };

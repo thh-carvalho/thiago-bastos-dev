@@ -1,8 +1,10 @@
 'use client'
  
 import { usePathname } from 'next/navigation'
-import { Angular, Javascript } from '../ui/images'
 import { ArrowForward } from '@mui/icons-material'
+import angular from '/public/angular.jpg'
+import javascript from '/public/javascript.jpg'
+import Image from 'next/image'
  
 export function Projects() {
   const pathname = usePathname()
@@ -11,7 +13,7 @@ export function Projects() {
     <section id='projects' className='py-10 pr-20 max-[990px]:py-18 max-[990px]:px-7'>
         <div className='flex justify-start py-10 pr-20 max-[990px]:flex-col max-[990px]:pr-0'>
             <div className='pr-5 max-[990px]:pr-0 max-[990px]:mb-3'>
-                <Angular/>
+                <Image src={angular} alt='angular wallpaper' width={400} height={200} />
             </div>
             <div className='p-0'>
                 <h3 className='text-slate-300 text-justify font-bold leading-7 pb-3'><a href="https://github.com/thh-carvalho/auth-login-firebase-angular" target='_blank'>Login Social - Firebase Angular <ArrowForward/></a></h3>
@@ -28,7 +30,7 @@ export function Projects() {
 
         <div className='flex justify-start py-10 pr-20 max-[990px]:flex-col max-[990px]:pr-0'>
             <div className='pr-5 max-[990px]:pr-0 max-[990px]:mb-3'>
-                <Javascript/>
+                <Image src={javascript} alt='angular wallpaper' width={250} height={200} />
             </div>
             <div className='p-0'>
                 <h3 className='text-slate-300 text-justify font-bold leading-7 pb-3'><a href="https://github.com/thh-carvalho/javascript_data_structure" target='_blank'>Estrutura de dados em Javascript <ArrowForward/></a></h3>
