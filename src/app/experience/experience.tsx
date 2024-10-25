@@ -1,18 +1,17 @@
 'use client'
 
-import { Javascript } from "@mui/icons-material"
+import { ArrowForward } from "@mui/icons-material"
  
 export function Experience() {
  
   return (
     <section id='experience' className='flex justify-start py-5 pr-10 max-[990px]:flex-col max-[990px]:py-18 max-[990px]:px-7'>
-        <div className='flex justify-start py-5 pr-10 w-5/5 hover:bg-slate-700 hover:bg-opacity-25 hover:rounded-xl max-[990px]:flex-col max-[990px]:pr-0'>
+        <div className='flex justify-start py-5 pr-10 w-5/5 hover:bg-slate-700 hover:bg-opacity-25 hover:rounded-xl max-[990px]:flex-col-reverse max-[990px]:pr-0'>
             <div className='p-0 max-[990px]:pb-3 max-[990px]:flex'>
-                <p className='w-32 text-slate-400'>Stalse Analytics</p>
                 <p className='w-32 text-slate-400'>2021 - PRESENT</p>
             </div>
             <div className='p-0'>
-                <h3 className='text-slate-300 text-justify leading-7 pb-3'>Front-end & Web Analytics Developer Jr</h3>
+                <a href="https://www.stalse.com/" target="_blank"><h3 className='text-slate-300 font-bold text-justify leading-7 pb-3'>Front-end & Web Analytics Developer Jr | Stalse Analytics <ArrowForward/></h3></a>
                 <p className='text-slate-400 text-justify leading-7'>
                     Desenvolvo e implemento estratégias de teste AB para melhorar as taxas de 
                     conversão de ecommerce e otimizar o desempenho do fúnil de vendas.
