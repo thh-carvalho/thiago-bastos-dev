@@ -74,8 +74,8 @@ export const metadata: Metadata = {
   category: 'tecnologia',
   icons: {
     icon: [
-      { url: '/favicon/thiago.png' },
-      new URL('/favicon/thiago.png', 'https://thh-carvalho.github.io/thiago-bastos-dev/'),
+      { url: '/thiago.png' },
+      new URL('/thiago.png', 'https://thh-carvalho.github.io/thiago-bastos-dev/'),
       { url: '/icon-dark.png', media: '(prefers-color-scheme: dark)' },
     ],
     shortcut: ['/shortcut-icon.png'],
@@ -143,11 +143,11 @@ export default function RootLayout({ children, }: { children: React.ReactNode}) 
 
         <link rel="canonical" href="https://thh-carvalho.github.io/thiago-bastos-dev/" />
         <link rel="alternate" hrefLang="pt-BR" href="https://thh-carvalho.github.io/thiago-bastos-dev/pt-BR" />
-        <link rel="shortcut icon" href="/favicon/thiago.png" />
-        <link rel="icon" ref="/favicon/thiago.png" />
-        <link rel="shortcut icon" href="/favicon/thiago.png" />
-        <link rel="icon" href="/favicon/thiago.png" />
-        <link rel="icon" href="https://thh-carvalho.github.io/thiago-bastos-dev/favicon/thiago.png" />
+        <link rel="shortcut icon" href="/thiago.png" />
+        <link rel="icon" ref="/thiago.png" />
+        <link rel="shortcut icon" href="/thiago.png" />
+        <link rel="icon" href="/thiago.png" />
+        <link rel="icon" href="https://thh-carvalho.github.io/thiago-bastos-dev/thiago.png" />
         <link rel="icon" href="/icon-dark.png" media="(prefers-color-scheme: dark)" />
         <link rel="apple-touch-icon" href="/apple-icon.png" />
         <link
