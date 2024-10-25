@@ -11,12 +11,12 @@ export function Experience() {
                 <p className='w-32 text-slate-400'>2021 - PRESENT</p>
             </div>
             <div className='p-0'>
-                <a href="https://www.stalse.com/" target="_blank"><h3 className='text-slate-300 font-bold text-justify leading-7 pb-3'>Front-end & Web Analytics Developer Jr | Stalse Analytics <ArrowForward/></h3></a>
+                <a href="https://www.stalse.com/" target="_blank"><h3 className='text-slate-300 font-bold text-justify pb-3'>Front-end & Web Analytics Developer Jr | Stalse Analytics <ArrowForward/></h3></a>
                 <p className='text-slate-400 text-justify leading-7'>
                     Desenvolvo e implemento estratégias de teste AB para melhorar as taxas de 
                     conversão de ecommerce e otimizar o desempenho do fúnil de vendas.
                 </p>
-                <p className='text-slate-400 text-justify leading-7'>
+                <p className='text-slate-400 text-justify leading-7 pb-3'>
                     Utilizo Angular e outros frameworks para desenvolver aplicações web, simplificando o 
                     gerenciamento de dados e processos de marketing digital para equipes internas.
                     Realizo análises detalhadas utilizando Google Analytics, Adobe Target e outras 
