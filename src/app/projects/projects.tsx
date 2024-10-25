@@ -11,7 +11,7 @@ export function Projects() {
  
   return (
     <section id='projects' className='py-10 pr-20 max-[990px]:py-18 max-[990px]:px-7'>
-        <div className='flex justify-start py-10 pr-20 max-[990px]:flex-col max-[990px]:pr-0'>
+        <div className='flex justify-start py-10 pr-20 max-[990px]:flex-col max-[990px]:pr-0 hover:bg-slate-700 hover:bg-opacity-25 hover:rounded-xl'>
             <div className='pr-5 max-[990px]:pr-0 max-[990px]:mb-3'>
                 <Image src={angular} alt='angular wallpaper' width={400} height={200} />
             </div>
@@ -28,7 +28,7 @@ export function Projects() {
             </div>
         </div>
 
-        <div className='flex justify-start py-10 pr-20 max-[990px]:flex-col max-[990px]:pr-0'>
+        <div className='flex justify-start py-10 pr-20 max-[990px]:flex-col max-[990px]:pr-0 hover:bg-slate-700 hover:bg-opacity-25 hover:rounded-xl'>
             <div className='pr-5 max-[990px]:pr-0 max-[990px]:mb-3'>
                 <Image src={javascript} alt='angular wallpaper' width={250} height={200} />
             </div>
