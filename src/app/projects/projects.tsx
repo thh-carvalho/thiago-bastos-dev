@@ -13,7 +13,7 @@ export function Projects() {
   return (
     <section id='projects' className='py-10 pr-20 max-[990px]:py-18 max-[990px]:px-7'>
          <div className='flex justify-start py-10 pr-20 max-[990px]:flex-col max-[990px]:pr-0 hover:bg-slate-700 hover:bg-opacity-25 hover:rounded-xl'>
-            <div className='pr-5 w-[500px] max-[990px]:pr-0 max-[990px]:mb-3'>
+            <div className='pr-5 w-[300px] max-[990px]:w-[100px] max-[990px]:pr-0 max-[990px]:mb-3'>
                 <Image className='w-full' src={stalse} alt='angular wallpaper'/>
             </div>
             <div className='p-0'>
@@ -32,7 +32,25 @@ export function Projects() {
         </div>
 
         <div className='flex justify-start py-10 pr-20 max-[990px]:flex-col max-[990px]:pr-0 hover:bg-slate-700 hover:bg-opacity-25 hover:rounded-xl'>
-            <div className='pr-5 w-[400px] max-[990px]:pr-0 max-[990px]:mb-3'>
+            <div className='pr-5 w-[300px] max-[990px]:w-[100px] max-[990px]:pr-0 max-[990px]:mb-3'>
+                <Image className='w-full' src={stalse} alt='angular wallpaper'/>
+            </div>
+            <div className='p-0'>
+                <h3 className='text-slate-300 text-justify font-bold leading-7 pb-3'><a href="https://blog.stalse.com/" target='_blank'>Blog - Stalse Analytics <ArrowForward/></a></h3>
+                <p className='text-slate-400 text-justify leading-7'>
+                    Blog institucional desenvolvido em WordPress e um pouco de CSS. Onde são postadas
+                    curiosidades de analytics.
+                </p>
+
+                <div className='flex justify-start pt-3'>
+                    <span className='bg-teal-800 bg-opacity-25 text-teal-400 p-2 mr-2 rounded-full'>WordPress</span>
+                    <span className='bg-teal-800 bg-opacity-25 text-teal-400 p-2 mr-2 rounded-full'>CSS</span>
+                </div>
+            </div>
+        </div>
+
+        <div className='flex justify-start py-10 pr-20 max-[990px]:flex-col max-[990px]:pr-0 hover:bg-slate-700 hover:bg-opacity-25 hover:rounded-xl'>
+            <div className='pr-5 w-[300px] max-[990px]:w-[100px] max-[990px]:pr-0 max-[990px]:mb-3'>
                 <Image className='w-full' src={angular} alt='angular wallpaper'/>
             </div>
             <div className='p-0'>
@@ -44,22 +62,6 @@ export function Projects() {
                 <div className='flex justify-start pt-3'>
                     <span className='bg-teal-800 bg-opacity-25 text-teal-400 p-2 mr-2 rounded-full'>Angular</span>
                     <span className='bg-teal-800 bg-opacity-25 text-teal-400 p-2 rounded-full'>Firebase</span>
-                </div>
-            </div>
-        </div>
-
-        <div className='flex justify-start py-10 pr-20 max-[990px]:flex-col max-[990px]:pr-0 hover:bg-slate-700 hover:bg-opacity-25 hover:rounded-xl'>
-            <div className='pr-5 max-[990px]:pr-0 max-[990px]:mb-3'>
-                <Image src={javascript} alt='angular wallpaper' width={250} height={200} />
-            </div>
-            <div className='p-0'>
-                <h3 className='text-slate-300 text-justify font-bold leading-7 pb-3'><a href="https://github.com/thh-carvalho/javascript_data_structure" target='_blank'>Estrutura de dados em Javascript <ArrowForward/></a></h3>
-                <p className='text-slate-400 text-justify leading-7'>
-                    Códigos de algumas estrutura de dados em Javascript
-                </p>
-
-                <div className='flex justify-start pt-3'>
-                    <span className='bg-teal-800 bg-opacity-25 text-teal-400 p-2 mr-2 rounded-full'>Javascript</span>
                 </div>
             </div>
         </div>
