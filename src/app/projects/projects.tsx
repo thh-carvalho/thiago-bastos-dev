@@ -23,10 +23,14 @@ export function Projects() {
                     Hubspot.
                 </p>
 
-                <div className='flex justify-start pt-3'>
-                    <span className='bg-teal-800 bg-opacity-25 text-teal-400 p-2 mr-2 rounded-full'>Flask</span>
-                    <span className='bg-teal-800 bg-opacity-25 text-teal-400 p-2 mr-2 rounded-full'>Tailwind</span>
-                    <span className='bg-teal-800 bg-opacity-25 text-teal-400 p-2 mr-2 rounded-full'>Hubspot</span>
+                <div className='grid grid-cols-1 pt-3'>
+                    <div className="grid grid-cols-4 max-[990px]:grid-cols-2">
+                        <span className='text-center flex justify-center items-center text-sm bg-teal-800 bg-opacity-25 text-teal-400 mb-3 mx-1 py-1 px-1 rounded-full max-[990px]:p-1 max-[990px]:mt-2 max-[990px]:flex max-[990px]:justify-center max-[990px]:items-center'>Flask</span>
+                        <span className='text-center flex justify-center items-center text-sm bg-teal-800 bg-opacity-25 text-teal-400 mb-3 mx-1 py-1 px-1 rounded-full max-[990px]:p-1 max-[990px]:mt-2 max-[990px]:flex max-[990px]:justify-center max-[990px]:items-center'>Tailwind</span>
+                        <span className='text-center flex justify-center items-center text-sm bg-teal-800 bg-opacity-25 text-teal-400 mb-3 mx-1 py-1 px-1 rounded-full max-[990px]:p-1 max-[990px]:mt-2 max-[990px]:flex max-[990px]:justify-center max-[990px]:items-center'>Hubspot</span>
+                        <span className='text-center flex justify-center items-center text-sm bg-teal-800 bg-opacity-25 text-teal-400 mb-3 mx-1 py-1 px-1 rounded-full max-[990px]:p-1 max-[990px]:mt-2 max-[990px]:flex max-[990px]:justify-center max-[990px]:items-center'>Google Analytics</span>
+                        <span className='text-center flex justify-center items-center text-sm bg-teal-800 bg-opacity-25 text-teal-400 mb-3 mx-1 py-1 px-1 rounded-full max-[990px]:p-1 max-[990px]:mt-2 max-[990px]:flex max-[990px]:justify-center max-[990px]:items-center'>Google Tag Manager</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -42,9 +46,13 @@ export function Projects() {
                     curiosidades de analytics.
                 </p>
 
-                <div className='flex justify-start pt-3'>
-                    <span className='bg-teal-800 bg-opacity-25 text-teal-400 p-2 mr-2 rounded-full'>WordPress</span>
-                    <span className='bg-teal-800 bg-opacity-25 text-teal-400 p-2 mr-2 rounded-full'>CSS</span>
+                <div className='grid grid-cols-1 pt-3'>
+                    <div className="grid grid-cols-4 max-[990px]:grid-cols-2">
+                        <span className='text-center flex justify-center items-center text-sm bg-teal-800 bg-opacity-25 text-teal-400 mb-3 mx-1 py-1 px-1 rounded-full max-[990px]:p-1 max-[990px]:mt-2 max-[990px]:flex max-[990px]:justify-center max-[990px]:items-center'>WordPress</span>
+                        <span className='text-center flex justify-center items-center text-sm bg-teal-800 bg-opacity-25 text-teal-400 mb-3 mx-1 py-1 px-1 rounded-full max-[990px]:p-1 max-[990px]:mt-2 max-[990px]:flex max-[990px]:justify-center max-[990px]:items-center'>CSS</span>
+                        <span className='text-center flex justify-center items-center text-sm bg-teal-800 bg-opacity-25 text-teal-400 mb-3 mx-1 py-1 px-1 rounded-full max-[990px]:p-1 max-[990px]:mt-2 max-[990px]:flex max-[990px]:justify-center max-[990px]:items-center'>Google Analytics</span>
+                        <span className='text-center flex justify-center items-center text-sm bg-teal-800 bg-opacity-25 text-teal-400 mb-3 mx-1 py-1 px-1 rounded-full max-[990px]:p-1 max-[990px]:mt-2 max-[990px]:flex max-[990px]:justify-center max-[990px]:items-center'>Google Tag Manager</span>
+                    </div>
                 </div>
             </div>
         </div>
