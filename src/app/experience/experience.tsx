@@ -16,7 +16,7 @@ export function Experience() {
             <p className='text-slate-400 text-justify leading-7'>
                 Desenvolvo e implemento estratégias de teste AB para melhorar as taxas de 
                 conversão de ecommerce e otimizar o desempenho do fúnil de vendas.
-            .</p>
+            </p>
             <p className='text-slate-400 text-justify leading-7'>
                 Utilizo Angular e outros frameworks para desenvolver aplicações web, simplificando o 
                 gerenciamento de dados e processos de marketing digital para equipes internas.
