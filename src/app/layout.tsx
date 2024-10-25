@@ -74,9 +74,8 @@ export const metadata: Metadata = {
   category: 'tecnologia',
   icons: {
     icon: [
-      { url: '/thiago.png' },
-      new URL('/thiago.png', 'https://thh-carvalho.github.io/thiago-bastos-dev/'),
-      { url: '/icon-dark.png', media: '(prefers-color-scheme: dark)' },
+      { url: 'thiago-bastos-dev/thiago.png' },
+      new URL('thiago-bastos-dev/thiago.png', 'https://thh-carvalho.github.io/')
     ],
     shortcut: ['/shortcut-icon.png'],
     apple: [
