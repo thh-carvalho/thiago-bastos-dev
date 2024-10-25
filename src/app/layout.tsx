@@ -77,7 +77,7 @@ export const metadata: Metadata = {
       { url: 'thiago-bastos-dev/thiago.png' },
       new URL('thiago-bastos-dev/thiago.png', 'https://thh-carvalho.github.io/')
     ],
-    shortcut: ['/shortcut-icon.png'],
+    shortcut: ['thiago-bastos-dev/shortcut-icon.png'],
     apple: [
       { url: '/apple-icon.png' },
       { url: '/apple-icon-x3.png', sizes: '180x180', type: 'image/png' },
