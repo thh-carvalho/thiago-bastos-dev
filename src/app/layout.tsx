@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import 'tailwindcss/tailwind.css'
+import Head from "next/head";
 
 import { Hero } from "./hero/hero";
 
@@ -20,11 +21,11 @@ export const metadata: Metadata = {
       rel: 'icon',
       type: 'image/png',
       sizes: '32x32',
-      url: '/static/thiago.png',
+      url: '/favicon/thiago.png',
     },
     {
       rel: 'shortcut icon',
-      url: '/static/thiago.png',
+      url: '/favicon/thiago.png',
     },
   ],
 };
@@ -32,6 +33,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children, }: { children: React.ReactNode}) {
   return (
     <html lang="pt-br">
+      <Head>
+        <link rel="icon" href="/favicon/thiago.png" />
+      </Head>
       <body className="bg-[url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWxmajZoYTBvbmU4c2FneG44Znd1eXI2ZGl6NzgxcXRubDlweDJxcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U4ExkAvRpVQGB0NMe0/giphy.webp')] bg-no-repeat bg-cover">
         <div className="grid grid-cols-2 max-[990px]:flex max-[990px]:flex-col max-[990px]:justify-start">
           <div>
